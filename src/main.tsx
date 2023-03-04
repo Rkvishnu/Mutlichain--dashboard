@@ -85,27 +85,27 @@ const connectors = connectorsForWallets([
       wallet.rainbow({ chains }),
     ],
   },
-  {
-    groupName: "Others",
-    wallets: [
-      wallet.argent({ chains }),
-      wallet.brave({
-        chains,
-        shimDisconnect: true,
-      }),
-      wallet.imToken({ chains }),
-      wallet.injected({
-        chains,
-        shimDisconnect: true,
-      }),
-      wallet.ledger({
-        chains,
-        // infuraId: null,
-      }),
-      wallet.steak({ chains }),
-      wallet.trust({ chains, shimDisconnect: true }),
-    ],
-  },
+  // {
+  //   groupName: "Others",
+  //   wallets: [
+  //     wallet.argent({ chains }),
+  //     wallet.brave({
+  //       chains,
+  //       shimDisconnect: true,
+  //     }),
+  //     wallet.imToken({ chains }),
+  //     wallet.injected({
+  //       chains,
+  //       shimDisconnect: true,
+  //     }),
+  //     wallet.ledger({
+  //       chains,
+  //       // infuraId: null,
+  //     }),
+  //     wallet.steak({ chains }),
+  //     wallet.trust({ chains, shimDisconnect: true }),
+  //   ],
+  // },
 ]);
 
 const wagmiClient = createClient({

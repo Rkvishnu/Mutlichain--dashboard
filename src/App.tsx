@@ -48,7 +48,7 @@ function App() {
     <div className="flex flex-col items-center py-8">
 
         <h1 className="flex justify-center text-sm sm:text-base md:text-3xl lg:text-4xl pb-10">
-          DefiDashboard 🪙 What's in your Wallet?
+         Multichain Wallet Dashbaord
         </h1>
         
         <div className="flex justify-center">
@@ -106,9 +106,6 @@ function App() {
             </div>
           </div>
         )}
-      
-      
-      
       
       
       </div>
